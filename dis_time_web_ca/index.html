@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>Dis Time</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div id="root">
+        <div id="time-keeping-form">
+            <h1 id="main-title">{{name}}</h1>
+            <div>{{temp}}</div>
+            <form>
+                <div>
+                    <input id="user-id-input" type="text" placeholder="user id" v-model="userId" value="" />
+                    <input id="work-date-input" type="text" placeholder="dd/mm/yyyy" v-model="workDate" value="" />
+                    <input id="hours-worked-input" type="text" placeholder="hours worked e.g 8" v-model="hoursWorked" value="" />
+                </div>
+                <div>
+                    <button id="time-keep-submit" @click="postTimeKeep" >Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="node_modules/axios/dist/axios.js"></script>
+<script src="node_modules/vue/dist/vue.js"></script>
+<!--<script src="node_modules/google-charts/googleCharts.js"></script>-->
+<script type="text/javascript" src="app.js"></script>
+
+</html>

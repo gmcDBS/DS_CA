@@ -1,0 +1,19 @@
+div {
+    margin-top: 5px;
+}
+
+#main-title {
+    text-align: center;
+    color: mediumpurple;
+}
+
+#time-keeping-form {
+    text-align: center;
+    border-color: mediumpurple;
+    border-style: solid;
+}
+
+#time-keeping-submit {
+    background-color: mediumpurple;
+    color: white;
+}

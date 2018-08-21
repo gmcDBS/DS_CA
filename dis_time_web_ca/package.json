@@ -1,0 +1,16 @@
+{
+  "name": "dis_time_ca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "google-charts": "^1.5.0",
+    "vue": "^2.5.17"
+  }
+}
